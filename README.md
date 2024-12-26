@@ -2,9 +2,9 @@
 
 有一款 ESP32，内置一块 2.8 英寸、分辨率为 320×240 的液晶显示屏，并带有触摸屏，其型号为 “ESP32 - 2432S028R”。由于这个名称念起来不太顺口，我建议将它重新命名为 “廉价黄色显示屏”，简称 CYD。这块显示屏含运费仅约 15 美元，所以我觉得性价比真的很高。
 
-![image](https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display/assets/1562562/76c3d481-2523-4b6f-881c-2e29f9368cd0)
+![CYD](assets/cyd.png)
 
-## Features
+## 功能
 
 CYD 具有以下特点：
 
@@ -14,37 +14,38 @@ CYD 具有以下特点：
 - 用于供电和编程的 USB 接口
 - SD 卡插槽、LED 以及一些额外引出的引脚
 
-## Who is it good for?
+## 它适合谁？
 
-I think it's useful for the following types of people:
+我认为它对以下几类人有用：
 
-- **People just getting started with working hardware** - as everything is already connected, there is no soldering or additional components required
-- **People who are familiar with working with hardware, but are lazy** - (like me) Sometimes you just want to build a project without having to assemble any hardware
-- **People who aren't really looking to learn anything, but just want to build some cool things** - More about this later.
+- **刚开始接触硬件工作的人** - 由于所有部件都已连接好，无需焊接或添加额外组件。
+- **熟悉硬件操作但比较懒的人** - （比如我）有时候，你只是想做一个项目，而不必组装任何硬件。
+- **那些并非真心想学习什么，只是想做出一些很酷的东西的人** - 稍后再详细介绍这个。
 
-## What is the purpose of this page?
+## 这个页面的目的是什么？
 
-So this is pretty nice hardware and a cheap price, but the software instructions/support around it is pretty poor. Just a single link to a zip file on a random website.
+所以，这硬件相当不错，价格也便宜，但围绕它的软件说明及支持却相当糟糕。仅仅是一个指向某个随机网站上压缩文件的链接
 
-A couple of years ago I released the [ESP32 Trinity](https://github.com/witnessmenow/ESP32-Trinity), which is an open source ESP32 board for controlling Matrix panels. I think the main benefit people get out of the work I did on the Trinty is not the hardware, but the documentation, example code and ready to go projects.
+几年前，我发布了[ESP32 Trinity](https://github.com/witnessmenow/ESP32-Trinity)，这是一款用于控制矩阵面板的开源ESP32开发板。我认为，人们从我在Trinity上所做的工作中获得的主要益处并非硬件本身，而是相关文档、示例代码以及现成可用的项目。 
 
-I'm no longer creating hardware products, but I think it would be interesting if we could create the same kind of community around this display, where people can share examples and projects made for this display.
+我已不再开发硬件产品，但我觉得如果我们能围绕这款显示屏打造类似的社区，让人们可以分享针对这款显示屏制作的示例和项目，那会很有意思。 
 
-## How do I know if a display is a CYD?
-![CYD decision tree](http://www.plantuml.com/plantuml/png/RP0nJyCm48Nt_8gZNIb3fge3LD2b2q92235UamDRE7PaNuhyxxda7DGgJBs-zxtSE-yJO-IXSzKD6-e8UeVMLyQs1DJrdA6br4JRims-4fW9LiS4bY6JS-47qBTWC052QvEayyCAvA-wS-8vi01F7mS8SVevOxJeUK9zu55QzzP_Nw-exxPmz8tHJzRRsJq4cdo3Pu98oIQsCd4O6WDIbyXF4LN-JNMsYG7UNXyXUAUTLHDfqVeMJWClUfSPrY_OOyPtO_ivUPcfnoMV3iyXJh4cj_MGJd8lEleQkvQKi9TYUT_DvbukXnraIfTQURMT39Nu8kcrXInIwQYO-gCyNwgm6al-ZneTNIRqjLokqS2UV3jqxXS0)
+## 我怎么知道一块显示屏是不是CYD的呢？
 
-## Where to buy?
+![CYD decision tree](assets/cyddecisiontree.png)
+
+## 去哪里购买？
 
 Buy from wherever works out cheapest for you:
 
 - [Aliexpress\*](https://s.click.aliexpress.com/e/_DkSpIjB)
 - [Aliexpress\*](https://s.click.aliexpress.com/e/_DkcmuCh)
 - [Aliexpress](https://www.aliexpress.com/item/1005004502250619.html)
-- [Makerfabs](https://www.makerfabs.com/sunton-esp32-2-8-inch-tft-with-touch.html) - Seems to come with a 16GB SD card. Makerfabs also stock my [ESP32 Trinity](https://github.com/witnessmenow/ESP32-Trinity) (NOTE there will be import due in the EU from makerfabs)
+- [Makerfabs](https://www.makerfabs.com/sunton-esp32-2-8-inch-tft-with-touch.html) - 它似乎配备一张16GB的SD卡。Makerfabs也有我的[ESP32 Trinity](https://github.com/witnessmenow/ESP32-Trinity)产品（注意，从Makerfabs向欧盟进口会产生进口费用 ） 
 
-\* = Affiliate Link
+\* = 联盟链接
 
-## Getting Started With Your CYD
+## CYD使用入门
 
 For details on how to get started with your CYD, please check out the [Setup and Configuration](/SETUP.md) page
 
