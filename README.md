@@ -1,18 +1,18 @@
 # ESP32-Cheap-Yellow-Display
 
-There is an ESP32 with a built in 320 x 240 2.8" LCD display with a touch screen called the "ESP32-2432S028R", since this doesn't roll of the tongue, I propose it should be renamed the "Cheap Yellow Display" or CYD for short. This display is only about $15 delivered so I think it's really good value.
+有一款 ESP32，内置一块 2.8 英寸、分辨率为 320×240 的液晶显示屏，并带有触摸屏，其型号为 “ESP32 - 2432S028R”。由于这个名称念起来不太顺口，我建议将它重新命名为 “廉价黄色显示屏”，简称 CYD。这块显示屏含运费仅约 15 美元，所以我觉得性价比真的很高。
 
 ![image](https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display/assets/1562562/76c3d481-2523-4b6f-881c-2e29f9368cd0)
 
 ## Features
 
-The CYD has the following features:
+CYD 具有以下特点：
 
-- ESP32 (With Wifi and Bluetooth)
-- 320 x 240 LCD Display (2.8")
-- Touch Screen (Resistive)
-- USB for powering and programming
-- SD Card Slot, LED and some additional pins broken out
+- ESP32（支持无线和蓝牙）
+- 320×240 液晶显示屏（2.8 英寸）
+- 触摸屏（电阻式）
+- 用于供电和编程的 USB 接口
+- SD 卡插槽、LED 以及一些额外引出的引脚
 
 ## Who is it good for?
 
