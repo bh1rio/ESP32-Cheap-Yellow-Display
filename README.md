@@ -48,12 +48,13 @@ Buy from wherever works out cheapest for you:
 ## CYD使用入门
 
 For details on how to get started with your CYD, please check out the [Setup and Configuration](/SETUP.md) page
+有关如何开始使用CYD的详细信息，请查看[设置与配置](/SETUP.md)页面。
 
-## Code Examples
+## 代码示例
 
-### The Basics
+### 基础内容
 
-A collection of examples demonstrating how to use the different features of the CYD, this is a good place to get started. [Check them out here.](/Examples/Basics)
+这是一系列示例集合，展示如何使用CYD的不同功能，是很好的入门之处。[点击此处查看](/Examples/Basics) 
 
 ### Alternative Display Libraries
 
